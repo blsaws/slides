@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>AT&T Goals for W3C Web Testing</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="duration" content="5" />
+<meta name="font-size-adjustment" content="+5" />
+<link rel="stylesheet" href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" type="text/css" />
+<link rel="stylesheet" href="http://www.w3.org/Talks/Tools/Slidy2/styles/w3c-blue.css" type="text/css" />
+<script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js" charset="utf-8" type="text/javascript">
+</script>
+</head>
+<body>
+<div class="background"><img alt="" id="head-icon"
+src="http://www.w3.org/Talks/Tools/Slidy2/graphics/icon-blue.png" /><object id="head-logo"
+data="http://www.w3.org/Talks/Tools/Slidy2/graphics/w3c-logo-white.svg" type="image/svg+xml"
+title="W3C logo"><a href="http://www.w3.org/"><img
+alt="W3C logo" id="head-logo-fallback"
+src="http://www.w3.org/Talks/Tools/Slidy2/graphics/w3c-logo-white.gif" /></a></object></div>
+
+<div class="background slanty">
+<img src="http://www.w3.org/Talks/Tools/Slidy2/graphics/w3c-logo-slanted.jpg" alt="slanted W3C logo" />
+</div>
+
+<div class="slide cover title">
+  <!-- hidden style graphics to ensure they are saved with other content -->
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet.png" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/fold.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/unfold.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/fold-dim.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/nofold-dim.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/unfold-dim.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet-fold.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet-unfold.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet-fold-dim.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet-nofold-dim.gif" alt="" />
+  <img class="hidden" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/bullet-unfold-dim.gif" alt="" />
+
+<img style="width:400px" src="http://www.w3.org/Talks/Tools/Slidy2/graphics/keys2.jpg" alt="Cover page images (keys)"
+ class="cover" /><br clear="all" />
+ <h1	>Goals for W3C Web Testing<br/><span style="font-size: .5em">Bryan Sullivan, AT&T</span></h1>
+</div> 
+
+<div class="slide"> 
+ <h1>If we believe the "HTML5" hype<br/><span style='font-size: .75em'>(and we do)</span></h1> 
+ <ul class="incremental">
+ <li>We need to prepare for the developer and user onslaught</li>
+ <li>We need to avoid over-selling what it can do</li>
+ <li>We need to ensure specs have really been validated</li>
+ <li>We need to identify what's important to developers</li>
+ <li>We need a system that can inform developers about what works, in what browsers/devices, and let them revalidate it</li>
+ </ul>
+</div>
+
+<div class="slide"> 
+ <h1>Defining the Important</h1> 
+ <ul class="incremental">
+ <li>So far this is underway with CoreMob 2012, and 2013 is coming</li>
+ <li>Importance is usually a question of detailed priorities</li>
+ <li>Feature level priorities focus test development effort</li>
+ <li>Importance can also shift, and must be kept up-to-date</li>
+ </ul>
+</div>
+
+<div class="slide"> 
+ <h1>Verifying that It Works</h1> 
+ <ul class="incremental">
+ <li>We need a test framework that is:
+	 <ul class="incremental">
+	 <li>Centralized, interoperable across specs, an ingrained part of the W3C process</li>
+	 <li>Clonable (or at least privacy-enabling), to allow pre-launch device testing</li>
+	 <li>Automated to the fullest extent possible</li>
+	 <li>Data-focused, collecting/aggregating/exposing test results</li>
+	 </ul>
+ </li>
+ </ul>
+</div>
+
+<div class="slide"> 
+ <h1>Verifying that It Works</h1> 
+ <ul class="incremental">
+ <li>We need test assets that are:
+	 <ul class="incremental">
+	 <li>Semantically associable to features and development stage</li>
+	 <li>Developed per feature priorities</li>
+	 <li>Shepherded through consistent development processes and life-cycle</li>
+	 </ul>
+ </li>
+ <li>In summary
+	 <ul>
+	 	<li>All of the above, plus</li>
+	 	<li>re Tobie's <a href="http://tobie.github.com/w3c-testing-plan/unofficial-w3c-testing-plan-20120116.html">Plan proposal for testing the Open Web Platform</a>, <em>"what he said"</em></li>
+	 </ul>
+ </ul>
+</div>
+
+<div class="slide"> 
+ <h1>Focusing on CoreMob 2012</h1> 
+ <ul class="incremental">
+ <li>What became clear as I researched a <a href="http://www.w3.org/community/coremob/wiki/CoreMob2012_Test_Coverage">draft analysis of test coverage per CoreMob 2012</a> 
+	 <ul class="incremental">
+	 <li>W3C tests are all over the place</li>
+	 <li>It's unclear what lifecycle stage tests are at</li>
+	 <li>It's unclear what tests may be duplicated</li>
+	 <li>It's unclear how test map to coverage of assertions/requirements</li>
+	 <li>Dependency upon non-W3C tests are even less clear</li>
+	 <li>There are a lot of specs with 0 tests</li>
+	 </ul>
+ </li>
+ </ul>
+</div>
+
+<div class="slide"> 
+ <h1>2013 Web Testing Priorities</h1> 
+ <ul class="incremental">
+ <li>Shift focus to open-source test suites/frameworks</li>
+ <li>Focus initially upon Ringmark</li>
+ <li>Get cloned test frameworks running in-house</li>
+ <li>Identify CoreMob 2012 coverage & gaps</li>
+ <li>Participate actively in W3C Web Testing
+	<ul>
+	<li>Defining feature priorities thru CoreMob</li>
+	<li>Helping organize efforts in W3C</li>
+	<li>Taking on skill-matched tasks</li>
+	</ul>
+ </li>
+ </ul>
+</div>
+
+</body>
+</html>
